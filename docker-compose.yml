@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  spring:
+    container_name: simple-mock-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        buildno: 1
+    volumes:
+      - ./mocks:/tmp/mocks
+    ports: 
+      - "9000:9000"

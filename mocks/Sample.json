@@ -1,0 +1,7 @@
+{
+  "headers": {
+    "headerKey": "headerValue"
+  },
+  "mockContent": "{\"sampleKey\": \"sampleValue\"}",
+  "httpStatus": 200
+}
